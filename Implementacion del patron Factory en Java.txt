@@ -1,0 +1,6 @@
+Parte 3:
+- Factory vs creacion directa:
+Usar patrones Factory en lugar de la creacion directa de objetos con 'new' permite un mayor nivel de abstraccion y desacoplamiento. Esto significa que el codigo cliente no depende directamente de las clases concretas, lo que facilita la sustitucion, extension y mantenimiento de las implementaciones sin modificar el codigo cliente.
+
+- Aspectos:
+Los patrones Factory dan flexibilidad al permitir que los detalles de la creacion de objetos se manejen en fabricas dedicadas. Esto permite cambiar facilmente la implementacion de los objetos que se estan creando sin afectar el codigo que los usa. En cuanto a la mantenibilidad, esta mejora ya que los cambios en la logica de creacion de objetos se contienen dentro de las fabricas. El desacoplamiento se logra porque el codigo cliente interactua con interfaces o clases abstractas en lugar de clases concretas, lo que reduce la dependencia y facilita las pruebas y la integracion.
